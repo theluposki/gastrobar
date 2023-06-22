@@ -1,13 +1,18 @@
 <script setup>
+import { computed } from 'vue';
+import { useLayoutStore } from '../../stores/Layout.js';
 
+const storeLayout = useLayoutStore()
+
+const activeAside = computed(() => storeLayout.activeAside)
 </script>
 
 <template>
   <header class="header">
     <div class="left">
-      <div class="btn">
-        <i class='bx bx-menu' ></i>
-        <i class='bx bx-x' v-if="false"></i>
+      <div class="btn" @click="storeLayout.fnActiveAside">
+        <i class='bx bx-menu' v-if="!activeAside"></i>
+        <i class='bx bx-x' v-if="activeAside"></i>
       </div>
       <div class="logo">
         <span class="title">Gastrobar</span>

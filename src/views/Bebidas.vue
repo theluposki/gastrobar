@@ -106,6 +106,11 @@
   margin-right: 12px;
 }
 
+.category:active {
+  scale: .95;
+}
+
+
 .main {
   width: 100%;
   max-width: var(--width-layout);
@@ -128,6 +133,10 @@
   
   max-width: 280px;
   min-width: 280px;
+}
+
+.card:active {
+  scale: .9;
 }
 
 .card .image {

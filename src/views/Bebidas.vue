@@ -26,7 +26,7 @@
           <h3 class="name">Jack Daniels RYE</h3>
           <p class="price">R$ 222,00</p>
           <p class="description">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Whisky Jack Daniel's Rye Tennessee 1 Litro
           </p>
         </div>
       </div>
@@ -39,7 +39,7 @@
           <h3 class="name">Jack Daniels FIRE</h3>
           <p class="price">R$ 138,00</p>
           <p class="description">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Whisky Americano Jack Daniels Tennessee Fire 1 Litro
           </p>
         </div>
       </div>
@@ -52,7 +52,7 @@
           <h3 class="name">Gentleman JACK</h3>
           <p class="price">R$ 189,05</p>
           <p class="description">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Whisky Gentleman Jack 750 mL
           </p>
         </div>
       </div>
@@ -115,8 +115,8 @@
 .main {
   width: 100%;
   max-width: var(--width-layout);
-  min-height: 320px;
-  max-height: 320px;
+  min-height: 340px;
+  max-height: 340px;
 
   display: flex;
   gap: 4px;
@@ -168,6 +168,8 @@
 
   max-width: 260px;
   min-width: 260px;
+  min-height: 280px;
+  max-height: 280px;
 
   padding-top: 118px;
   text-align: center;

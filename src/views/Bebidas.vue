@@ -87,7 +87,7 @@
   display: flex;
   overflow-y: hidden;
   overflow-x: auto;
-  padding: 0 0 0 24px;
+  padding: 0 0 20px 24px;
 }
 .category {
   font-size: 1.4rem;
@@ -109,8 +109,8 @@
 .main {
   width: 100%;
   max-width: var(--width-layout);
-  min-height: 300px;
-  max-height: 300px;
+  min-height: 320px;
+  max-height: 320px;
 
   display: flex;
   gap: 4px;

@@ -104,6 +104,7 @@
   justify-content: center;
   flex-wrap: nowrap;
   margin-right: 12px;
+  user-select: none;
 }
 
 .category:active {
@@ -123,6 +124,7 @@
   overflow-y: hidden;
   overflow-x: auto;
   scroll-behavior: smooth;
+  user-select: none;
 }
 
 .card {
@@ -133,10 +135,11 @@
   
   max-width: 280px;
   min-width: 280px;
+  user-select: none;
 }
 
 .card:active {
-  scale: .9;
+  scale: .95;
 }
 
 .card .image {

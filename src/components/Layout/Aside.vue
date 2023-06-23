@@ -68,15 +68,15 @@ const setLink = (link) => push(link);
 
 <style scoped>
 .aside {
+  position: absolute;
+  z-index: 10000;
   background-color: var(--palette-1-3);
   background-color: transparent;
   min-width: var(--width-aside);
   max-width: var(--width-aside);
-  min-height: calc(100vh - 68px);
-  /* box-shadow: 0 0 3px var(--palette-2-3); */
+  min-height: calc(100vh - 80px);
+  max-height: calc(100vh - 80px);
   border-radius: 4px;
-  /* overflow: hidden; */
-  /* padding: 20px 0; */
 }
 
 .nav {
@@ -87,13 +87,13 @@ const setLink = (link) => push(link);
 
 .nav-link {
   min-height: 55px;
-  background-color: var(--palette-2);
+  background-color: var(--palette-0-2);
   display: flex;
   align-items: center;
   gap: 12px;
 
   padding: 0 16px;
-  box-shadow: 0 0 1px var(--palette-2);
+  box-shadow: -1px 1px 6px var(--palette-0-5);
   border-radius: 4px;
 }
 
@@ -104,12 +104,11 @@ const setLink = (link) => push(link);
 
 .nav-link i {
   font-size: 2.6rem;
-  color: var(--palette-3-2);
-  filter: drop-shadow(-1px 1px 1px var(--palette-2-3));
+  color: var(--palette-3);
 }
 
 .nav-link span {
-  color: var(--palette-3-1);
+  color: var(--palette-3);
   /* filter: drop-shadow(0 1px 1px var(--palette-3-2)); */
   font-weight: 600;
   font-size: 1.4rem;
@@ -120,15 +119,15 @@ const setLink = (link) => push(link);
 }
 
 .active {
-  background-color: var(--palette-1-3);
+  background-color: var(--palette-3);
 }
 
 .active > span {
-  color: var(--palette-2);
+  color: var(--palette-0-1);
 }
 
 .active > i {
-  color: var(--palette-2);
-  filter: drop-shadow(-1px 1px 1px var(--palette-3-3));
+  color: var(--palette-0-2);
+  filter: drop-shadow(-1px 1px 8px var(--palette-0-2));
 }
 </style>

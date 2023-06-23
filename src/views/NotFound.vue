@@ -4,7 +4,7 @@
 
 <template>
   <div class="page">
-    <h1>Não encontrado</h1>
+    <h1 class="title-page">Não encontrado</h1>
   </div>
 </template>
 

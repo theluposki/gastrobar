@@ -4,7 +4,7 @@
 
 <template>
   <div class="page">
-    <h1>Promoções</h1>
+    <h1 class="title-page">Promoções</h1>
   </div>
 </template>
 

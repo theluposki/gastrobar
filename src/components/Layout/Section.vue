@@ -18,14 +18,13 @@
 <style scoped>
 .section {
   flex: 1;
-  background-color: var(--palette-4);
   width: 100%;
-  min-height: calc(100vh - 68px);
-  box-shadow: 0 0 3px var(--palette-2-3);
+  min-height: calc(100vh - 80px);
+  max-height: calc(100vh - 80px);
   border-radius: 4px;
   overflow: hidden;
-
   transition: all ease .4s;
+  z-index: 2;
 }
 
 .animate__animated.animate__fadeIn {

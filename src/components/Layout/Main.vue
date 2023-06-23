@@ -33,8 +33,10 @@ const activeAside = computed(() => storeLayout.activeAside);
 .main {
   display: flex;
   gap: 8px;
-  padding: 8px;
-  min-height: calc(100vh - 68px);
-  background-color: transparent;
+  padding: 0;
+  min-height: calc(100vh - 80px);
+  max-height: calc(100vh - 80px);
+  overflow: hidden;
+  z-index: 2;
 }
 </style>

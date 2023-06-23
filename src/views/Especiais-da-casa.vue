@@ -4,7 +4,7 @@
 
 <template>
   <div class="page">
-    <h1>Especiais da casa</h1>
+    <h1 class="title-page">Especiais da casa</h1>
   </div>
 </template>
 

@@ -2,26 +2,6 @@
 import HeaderM from "./components/Layout/Header.vue";
 import MainM from "./components/Layout/Main.vue";
 
-import { onMounted } from "vue";
-
-onMounted(() => {
-  setTimeout(() => {
-    // Verifica se o navegador suporta a API Fullscreen
-    if (document.documentElement.requestFullscreen) {
-      // Solicita ao navegador para entrar no modo de tela cheia
-      document.documentElement.requestFullscreen();
-    } else if (document.documentElement.mozRequestFullScreen) {
-      // Firefox
-      document.documentElement.mozRequestFullScreen();
-    } else if (document.documentElement.webkitRequestFullscreen) {
-      // Chrome, Safari e Opera
-      document.documentElement.webkitRequestFullscreen();
-    } else if (document.documentElement.msRequestFullscreen) {
-      // Internet Explorer/Edge
-      document.documentElement.msRequestFullscreen();
-    }
-  }, 5000);
-});
 </script>
 
 <template>

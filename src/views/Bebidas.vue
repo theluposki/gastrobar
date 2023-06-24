@@ -57,10 +57,49 @@
         </div>
       </div>
 
+      <div class="card">
+        <div class="image">
+          <img class="img" src="../assets/img/whisky6.webp" alt="wiskey" />
+        </div>
+        <div class="content">
+          <h3 class="name">Ballantine's</h3>
+          <p class="price">R$ 47,93</p>
+          <p class="description">
+            Whisky Ballantine's Blended Finest Reino Unido 750 mL
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image">
+          <img class="img" src="../assets/img/whisky5.webp" alt="wiskey" />
+        </div>
+        <div class="content">
+          <h3 class="name">Jack Daniel's Honey</h3>
+          <p class="price">R$ 132,00</p>
+          <p class="description">
+            Whisky Jack Daniel's Honey 1 Litro
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image">
+          <img class="img" src="../assets/img/whisky7.webp" alt="wiskey" />
+        </div>
+        <div class="content">
+          <h3 class="name">Chivas Regal</h3>
+          <p class="price">R$ 160,00</p>
+          <p class="description">
+  	        Whisky Chivas Regal 12 anos - 1 Litro
+          </p>
+        </div>
+      </div>
+
     </main>
 
     <footer class="footer">
-      <span class="favorites">Mais Pedidos</span>
+      <span class="favorites">Favoritos</span>
       <div class="cards-footer">
 
         <div class="card-f">
@@ -82,6 +121,39 @@
           <div class="cf-content">
             <div class="cf-name">Jack Daniels FIRE</div>
             <p class="cf-price">R$ 189,05</p>
+          </div>
+        </div>
+
+        <div class="card-f">
+          <div class="cf-image">
+            <img class="img" src="../assets/img/whisky5.webp" alt="wiskey" />
+          </div>
+
+          <div class="cf-content">
+            <div class="cf-name">Jack Daniel's Honey</div>
+            <p class="cf-price">R$ 132,00</p>
+          </div>
+        </div>
+
+        <div class="card-f">
+          <div class="cf-image">
+            <img class="img" src="../assets/img/whisky6.webp" alt="wiskey" />
+          </div>
+
+          <div class="cf-content">
+            <div class="cf-name">Ballantine's Blended</div>
+            <p class="cf-price">R$ 132,00</p>
+          </div>
+        </div>
+
+        <div class="card-f">
+          <div class="cf-image">
+            <img class="img" src="../assets/img/whisky7.webp" alt="wiskey" />
+          </div>
+
+          <div class="cf-content">
+            <div class="cf-name">Chivas Regal</div>
+            <p class="cf-price">R$ 160,00</p>
           </div>
         </div>
 
@@ -134,6 +206,7 @@
   flex-wrap: nowrap;
   margin-right: 12px;
   user-select: none;
+  cursor: pointer;
 }
 
 .category:active {
@@ -165,6 +238,7 @@
   max-width: 280px;
   min-width: 280px;
   user-select: none;
+  cursor: pointer;
 }
 
 .card:active {
@@ -260,6 +334,7 @@
   max-height: 70px;
   padding: 0 6px;
   border-radius: 25px;
+  cursor: pointer;
 }
 
 .card-f:active {

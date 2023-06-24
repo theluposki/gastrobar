@@ -89,7 +89,7 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: var(--palette-0-1);
+  background: transparent;
 }
 
 /* Handle */

@@ -58,6 +58,35 @@
       </div>
 
     </main>
+
+    <footer class="footer">
+      <span class="favorites">Mais Pedidos</span>
+      <div class="cards-footer">
+
+        <div class="card-f">
+          <div class="cf-image">
+            <img class="img" src="../assets/img/whisky3.jpg" alt="wiskey" />
+          </div>
+
+          <div class="cf-content">
+            <div class="cf-name">Gentleman JACK</div>
+            <p class="cf-price">R$ 189,05</p>
+          </div>
+        </div>
+
+        <div class="card-f">
+          <div class="cf-image">
+            <img class="img" src="../assets/img/whisky2.jpg" alt="wiskey" />
+          </div>
+
+          <div class="cf-content">
+            <div class="cf-name">Jack Daniels FIRE</div>
+            <p class="cf-price">R$ 189,05</p>
+          </div>
+        </div>
+
+      </div>
+    </footer>
   </div>
 </template>
 
@@ -191,4 +220,73 @@
   font-size: 1.4rem;
   padding: 0 24px;
 }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.favorites {
+  font-size: 2rem;
+  padding: 0 24px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards-footer {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+
+  overflow-y: hidden;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  user-select: none;
+  margin: 10px 0;
+  padding: 20px 24px;
+}
+
+.card-f {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: var(--palette-0-2);
+  max-width: 280px;
+  min-width: 280px;
+  min-height: 70px;
+  max-height: 70px;
+  padding: 0 6px;
+  border-radius: 25px;
+}
+
+.cf-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 6px var(--palette-0-4);
+}
+.cf-image img {
+  width: 100%;
+  height: 60px;
+  object-fit: cover;
+}
+
+.cf-content {
+  white-space: pre;
+}
+
+.cf-name {
+  color: var(--palette-4);
+  font-weight: 600;
+}
+
+.cf-price {
+  color: var(--palette-0-3);
+  font-weight: 600;
+}
+
 </style>

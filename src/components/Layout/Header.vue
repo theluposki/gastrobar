@@ -107,6 +107,12 @@ function toggleFullscreen() {
 .logo {
   display: flex;
   align-items: center;
+  cursor: pointer;
+}
+
+.logo:hover {
+  animation: rubberBand;
+  animation-duration: 1.5s;
 }
 
 .logo > .title {

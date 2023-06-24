@@ -262,6 +262,10 @@
   border-radius: 25px;
 }
 
+.card-f:active {
+  scale: .95;
+}
+
 .cf-image {
   width: 60px;
   height: 60px;
